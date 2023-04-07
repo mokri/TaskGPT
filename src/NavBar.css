@@ -1,0 +1,44 @@
+nav {
+  
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6e3fa;;
+  padding: 10px;
+  color: rgb(26, 38, 75);
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 60px;
+  }
+  
+  
+  .logo {
+    font-size: 1.9rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: rgb(26, 25, 34);
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(58, 52, 82);
+  }
+  
+
+  /* CSS for the checkboxes */
+.checkboxes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
