@@ -109,6 +109,17 @@ function App() {
   return (
     <div className="App">
   <div style={{ position:"relative", height: "800px", width: "900px"  }}>
+      
+    <div>
+    <ul className="nav-links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+      </ul>
+    </div>
 
       <nav>
         <div className="logo">
