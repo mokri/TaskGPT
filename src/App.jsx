@@ -5,7 +5,8 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import React from 'react';
 
-const API_KEY = "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";
+const API_KEY = process.env.OPENAI_API_KEY
+
 const systemMessage = {
   "role": "system", "content": "Explain things like you're a product manager with experience as product owner and full stack developer talking to a software professional with 2 years of experience. include acceptance criteria"
 }
