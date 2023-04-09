@@ -112,7 +112,7 @@ function App() {
   <div className="logo">
           <a href="/">TasksGPT</a>
         </div>
-  <div>
+  <div className="new-link">
                  <h1>New verison is available <a href="https://abdelhakmokri26-taskgpt-v2-taskgpt-h5oml4.streamlit.app/">here</a></h1>
        
     </div>
