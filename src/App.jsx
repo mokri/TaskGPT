@@ -8,7 +8,7 @@ import React from 'react';
 const API_KEY = process.env.OPENAI_API_KEY
 
 const systemMessage = {
-  "role": "system", "content": "Explain things like you're a product manager with experience as product owner and full stack developer talking to a software professional with 2 years of experience. include acceptance criteria"
+  "role": "system", "content": "Explain things like you're a product manager and product owner with more than 6 years of experience and has experience as fullstack developer, and you are talking to a software professional with 2 years of experience."
 }
 
 function App() {
@@ -109,26 +109,16 @@ function App() {
   return (
     <div className="App">
   <div style={{ position:"relative", height: "800px", width: "900px"  }}>
-      
-    <div>
-    <ul className="nav-links">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-      </ul>
-    </div>
-
-      <nav>
-        <div className="logo">
+  <div className="logo">
           <a href="/">TasksGPT</a>
         </div>
-        <div>
+  <div>
                  <h1>New verison is available <a href="https://abdelhakmokri26-taskgpt-v2-taskgpt-h5oml4.streamlit.app/">here</a></h1>
        
     </div>
+      <nav>
+       
+        
         <div className="checkboxes">
         <label htmlFor="includeAcceptanceCriteria">
         <input
@@ -173,8 +163,9 @@ function App() {
         />
       </label>
     </div>
+    
   </nav>
-
+    
   <MainContainer>
           <ChatContainer>       
             <MessageList 
